@@ -27,5 +27,5 @@ and open the template in the editor.
         <sauce type="fksauce"/>
         <instructions>I want peanut butter on my burger please.</instructions>
     </burger>
-    
+    <special>Please put it in a paper bag rather than plastic.</special>
 </order>
