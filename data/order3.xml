@@ -16,8 +16,8 @@ and open the template in the editor.
         <topping type="avocado"/>
         <topping type="egg"/>
         <sauce type="fksauce"/>
-        <!-- <instructions>Please cook it to perfect blue.</instructions>
-        <name>The Best Burger</name> -->
+        <instructions>Please cook it to perfect blue.</instructions>
+        <name>The Best Burger</name>
     </burger>
     <burger>
         <patty type="turkey"/>
@@ -25,7 +25,7 @@ and open the template in the editor.
         <topping type="lettuce"/>
         <topping type="bacon"/>
         <sauce type="fksauce"/>
-        <sauce type="peanutbutter"/>
+        <instructions>I want peanut butter on my burger please.</instructions>
     </burger>
     
 </order>

@@ -25,7 +25,7 @@
         - Special instrctuions
         - An optional name if the customer feels like it
 -->
-<!ELEMENT burger (patty, cheeses?, topping*, sauce*, instrctuions?, name?)>
+<!ELEMENT burger (patty, cheeses?, topping*, sauce*, instructions?, name?)>
 
 <!-- Patty can be 1 of 5 types and might be named; beef default (1)-->
 <!ELEMENT patty (#PCDATA)>
