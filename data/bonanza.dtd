@@ -2,7 +2,7 @@
 <!-- Order placement data for Bob's Burger Bar's Bigger, Better Burga Bonazna -->
 
 <!-- Order; identifies customer, order type, burgers, and specials -->
-<!ELEMENT order (customer, delivery?, burger+, special)>
+<!ELEMENT order (customer, delivery?, burger+, special?)>
 
 <!-- Customer is identified by their name -->
 <!ELEMENT customer (#PCDATA)>
@@ -25,7 +25,7 @@
         - Special instrctuions
         - An optional name if the customer feels like it
 -->
-<!ELEMENT burger (patty, cheeses, topping*, sauce*, instrctuions?, name?)>
+<!ELEMENT burger (patty, cheeses?, topping*, sauce*, instrctuions?, name?)>
 
 <!-- Patty can be 1 of 5 types and might be named; beef default (1)-->
 <!ELEMENT patty (#PCDATA)>
@@ -52,3 +52,6 @@
 
 <!-- Special Instructions -->
 <!ELEMENT instructions (#PCDATA)>
+
+<!-- Customer's given name for the burger -->
+<!ELEMENT name (#PCDATA)>
